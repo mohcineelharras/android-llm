@@ -4,6 +4,7 @@ plugins {
 }
 
 android {
+  namespace = "com.example.llmapp"
   compileSdk = 34
 
   defaultConfig {
