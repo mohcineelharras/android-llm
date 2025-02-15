@@ -15,7 +15,6 @@ plugins {
             versionName = "1.0"
 
             testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-
         }
 
         buildTypes {
@@ -37,7 +36,6 @@ plugins {
         buildFeatures {
             viewBinding = true // Enable View Binding
         }
-
     }
 
     dependencies {
