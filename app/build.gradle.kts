@@ -47,8 +47,9 @@ plugins {
         androidTestImplementation("androidx.test.ext:junit:1.1.5")
         androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
-        // Material 3
-        implementation("androidx.compose.material3:material3:1.2.0")
+        // ViewModel and LiveData
+        implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
+        implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.7.0")
 
         // Retrofit
         implementation("com.squareup.retrofit2:retrofit:2.9.0")
