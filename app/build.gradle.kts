@@ -25,6 +25,9 @@ plugins {
                     "proguard-rules.pro"
                 )
             }
+            debug {
+                // Debug build configuration
+            }
         }
         compileOptions {
             sourceCompatibility = JavaVersion.VERSION_17
